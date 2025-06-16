@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0">
+  <class>MainWindow</class>
+  <widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Form Mahasiswa</string>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <!-- Labels -->
+      <widget class="QLabel" name="label">
+        <property name="geometry">
+          <rect>
+            <x>30</x>
+            <y>20</y>
+            <width>100</width>
+            <height>20</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>NPM</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+        <property name="geometry">
+          <rect>
+            <x>30</x>
+            <y>50</y>
+            <width>100</width>
+            <height>20</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Nama Lengkap</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+        <property name="geometry">
+          <rect>
+            <x>30</x>
+            <y>80</y>
+            <width>100</width>
+            <height>20</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Nama Panggilan</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+        <property name="geometry">
+          <rect>
+            <x>30</x>
+            <y>110</y>
+            <width>100</width>
+            <height>20</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Telepon</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+        <property name="geometry">
+          <rect>
+            <x>30</x>
+            <y>140</y>
+            <width>100</width>
+            <height>20</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Email</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+        <property name="geometry">
+          <rect>
+            <x>30</x>
+            <y>170</y>
+            <width>100</width>
+            <height>20</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Kelas</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+        <property name="geometry">
+          <rect>
+            <x>30</x>
+            <y>200</y>
+            <width>100</width>
+            <height>20</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Mata Kuliah</string>
+        </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+        <property name="geometry">
+          <rect>
+            <x>30</x>
+            <y>230</y>
+            <width>100</width>
+            <height>20</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Lokasi Kampus</string>
+        </property>
+      </widget>
+      
+      <!-- Input Fields -->
+      <widget class="QLineEdit" name="lineEdit_npm">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>20</y>
+            <width>200</width>
+            <height>25</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_nama_lengkap">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>50</y>
+            <width>200</width>
+            <height>25</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_nama_panggilan">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>80</y>
+            <width>200</width>
+            <height>25</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_telepon">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>110</y>
+            <width>200</width>
+            <height>25</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_email">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>140</y>
+            <width>200</width>
+            <height>25</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_kelas">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>170</y>
+            <width>200</width>
+            <height>25</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_matakuliah">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>200</y>
+            <width>200</width>
+            <height>25</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_lokasi_kampus">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>230</y>
+            <width>200</width>
+            <height>25</height>
+          </rect>
+        </property>
+      </widget>
+
+      <!-- Buttons -->
+      <widget class="QPushButton" name="pushButton_tambah">
+        <property name="geometry">
+          <rect>
+            <x>400</x>
+            <y>20</y>
+            <width>100</width>
+            <height>30</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Tambah</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_ubah">
+        <property name="geometry">
+          <rect>
+            <x>400</x>
+            <y>60</y>
+            <width>100</width>
+            <height>30</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Ubah</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_hapus">
+        <property name="geometry">
+          <rect>
+            <x>400</x>
+            <y>100</y>
+            <width>100</width>
+            <height>30</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Hapus</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_batal">
+        <property name="geometry">
+          <rect>
+            <x>400</x>
+            <y>140</y>
+            <width>100</width>
+            <height>30</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Batal</string>
+        </property>
+      </widget>
+
+      <!-- Table Widget -->
+      <widget class="QTableWidget" name="tableWidget_mahasiswa">
+        <property name="geometry">
+          <rect>
+            <x>20</x>
+            <y>280</y>
+            <width>760</width>
+            <height>200</height>
+          </rect>
+        </property>
+      </widget>
+
+      <!-- Status Label -->
+      <widget class="QLabel" name="label_status">
+        <property name="geometry">
+          <rect>
+            <x>20</x>
+            <y>500</y>
+            <width>400</width>
+            <height>25</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Siap...</string>
+        </property>
+      </widget>
+    </widget>
+  </widget>
+  <resources/>
+  <connections/>
+</ui>
